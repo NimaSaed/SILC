@@ -76,7 +76,7 @@ In this stage, security engineer or if possible test engineer need to verify the
 
 Closed issue access can be changed to public after 6 months automatically, or in the case that customer has not update/is not able to update to latest version you might want to keep it private.
 
-## Security Issue Access
+# Security Issue Access
 
 - Private
     - Security open security issue must be private and only accessible by Product manager, Architect, Security engineer and the respective component developer and test engineer.
@@ -92,3 +92,15 @@ Closed issue access can be changed to public after 6 months automatically, or in
 - Security issue vs Security feature
 
 	Do not mix security issue and security feature in your issue tracking system. They should be treated differently.
+
+- Voting
+
+    Some issue tracking systems has voting feature, security issue should not be treated this way. Security issue must be rectify as soon as possible.
+
+- Parking
+
+    Some issue tracking systems has parking feature, security issue should not be park, there should be a clear plan for fixing the issue.
+
+- Close without change
+
+    If there are no resources available, or it is not in interest of product management to invest on solving the issue, the issue need to be closed without change with clear statement to explain the reason, plus product manager need to be hold accountable if in future this issue was used to exploit the system.
