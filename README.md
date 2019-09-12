@@ -79,7 +79,7 @@ Closed issue access can be changed to public after 6 months automatically, or in
 # Security Issue Access
 
 - Private
-    - Security open security issue must be private and only accessible by Product manager, Architect, Security engineer and the respective component developer and test engineer.
+    - Open security issue must be private and only accessible by Product manager, Architect, Security engineer and the respective component developer and test engineer.
 - Public
     - Security issue can be accessible by everyone if and only if it resolved and have closed status.
 
