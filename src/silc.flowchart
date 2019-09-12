@@ -1,0 +1,19 @@
+st=>start: Start
+e=>end: End
+op1=>operation: Introduced
+op2=>operation: Review
+op3=>operation: Ready
+op4=>operation: In Progress
+op5=>operation: Done
+op6=>operation: Close
+co1=>condition: If issue
+                submitted
+                by SSE
+
+st->op1
+op1(right)->co1(yes)->op3
+co1(no)->op2(right)->op3
+op3(right)->op4
+op4(right)->op5
+op5(right)->op6
+op6->e
